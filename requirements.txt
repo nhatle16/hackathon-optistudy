@@ -9,3 +9,5 @@ beautifulsoup4==4.15.0
 pydantic==2.13.5
 requests==2.33.1
 pdfplumber==0.11.10
+dotenv==0.9.9
+python-dotenv==1.2.3

@@ -35,11 +35,13 @@ httpx2==2.12.0
 humanize==4.13.0
 idna==3.18
 iso639==0.1.4
+jiter==0.17.0
 jsonpatch==1.33
 jsonpointer==3.1.1
 jsonschema==4.23.0
 jsonschema-specifications==2024.10.1
 langchain-core==1.6.3
+langchain-openai==1.6.2
 langchain-protocol==0.0.19
 langsmith==0.12.4
 langtable==0.0.71
@@ -55,6 +57,7 @@ meson==1.8.5
 multidict==6.8.0
 nftables==0.1
 olefile==0.47
+openai==3.13.0
 orjson==3.12.0
 packaging==25.0
 Paste==3.10.1
@@ -84,6 +87,7 @@ pyparted==3.13.0
 PySocks==1.7.1
 python-augeas==1.2.0
 python-dateutil==2.9.0.post0
+python-dotenv==1.2.3
 python-linux-procfs==0.7.4
 python-meh==0.52
 python-pam==2.0.2
@@ -113,6 +117,7 @@ systemd-python==235
 tavily==1.1.0
 Tempita==0.5.2
 tenacity==9.1.4
+tiktoken==0.14.0
 truststore==0.10.4
 typing-inspection==0.4.4
 typing_extensions==4.16.0

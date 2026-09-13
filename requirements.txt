@@ -1,3 +1,5 @@
+langchain==1.4.0
+langgraph==1.2.11
 langchain-core==1.6.3
 langchain-protocol==0.0.19
 langchain-nebius==0.1.3

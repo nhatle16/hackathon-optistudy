@@ -42,3 +42,42 @@ Continuously customizes future study plans based on active mastery checks and pe
 * **Pacing Calibration Engine:** Tracks user reading and problem-solving speed against initial estimates.
   * *Example:* If practice problems take 1.5× the estimated time, future study blocks dynamically stretch their allocated buffers by 50%.
   * *Example:* Gathers post-exam schedule ratings to refine estimated topic difficulty for future study modules.
+
+---
+
+## How to Run
+* To run the agent, first navigate to a desired location in your filesystem, then use the following commands to clone project:
+```bash
+git clone https://github.com/nhatle16/hackathon-optistudy
+cd hackathon-optistudy
+```
+
+* After that, create a virtual environment:
+```bash
+# For macOS/Linux
+python3 -m venv .venv
+# For Windows
+python -m venv .venv
+```
+
+* Activate the virtual environment:
+```bash
+# macOS/Linux
+source .venv/bin/activate
+
+# Windows (Command Prompt)
+.venv\Scripts\activate.bat
+
+# Windows (PowerShell)
+.venv\Scripts\Activate.ps1
+```
+
+* Install the dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+* Run this command to interact with the agent in a programmatic way:
+```bash
+.venv/bin/python src/agent.py
+```

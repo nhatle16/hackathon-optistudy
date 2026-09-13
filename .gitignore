@@ -1,0 +1,64 @@
+# ==============================================
+# Environment & Secrets (CRITICAL)
+# ==============================================
+.env
+.env.local
+.env.*.local
+*.env
+*.pem
+*.key
+
+# ==============================================
+# Python / FastAPI Backend
+# ==============================================
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+
+# ==============================================
+# Uploads & Temporary Cache (PDFs, Images)
+# ==============================================
+# Ignore user-uploaded syllabi or parsed temp files
+uploads/
+temp/
+*.pdf
+!sample_syllabus.pdf  # Keep your committed demo fixture
+*.png
+*.jpg
+*.jpeg
+
+# Local SQLite databases
+*.db
+*.sqlite3
+
+# ==============================================
+# Operating System & IDE Files
+# ==============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Editors
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.sublime-workspace
+*.sublime-project

@@ -4,6 +4,8 @@ from langchain.agents import create_agent
 from langchain_core.messages import HumanMessage
 from dotenv import load_dotenv
 
+from src.tools.pdf_tools import extract_syllabus_text
+
 load_dotenv()
 
 # Initialize Nebius Chat Model
@@ -19,6 +21,7 @@ model = ChatNebius(
 # Create an agent
 agent = create_agent(
     model=model,
+    tools=[extract_syllabus_text]
 )
 
 # Invoke the agent
